@@ -1,0 +1,49 @@
+buildscript {
+    repositories {
+        maven {
+            url 'https://plugins.gradle.org/m2/'
+        }
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+        classpath 'net.serenity-bdd:serenity-gradle-plugin:4.0.46'
+    }
+}
+
+
+plugins {
+    id 'java'
+    id 'net.serenity-bdd.serenity-gradle-plugin' version '4.0.46'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+
+apply plugin: 'net.serenity-bdd.serenity-gradle-plugin'
+
+/*allure{
+    adapter.autoconfigure = true
+    version '2.20.1'
+}*/
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url 'https://plugins.gradle.org/m2/'
+    }
+}
+
+dependencies {
+    implementation 'net.serenity-bdd:serenity-core:4.0.46'
+    implementation 'net.serenity-bdd:serenity-cucumber:4.0.46'
+    implementation 'net.serenity-bdd:serenity-junit:4.0.46'
+}
+
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)
+

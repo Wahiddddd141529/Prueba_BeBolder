@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Compra Camiseta" skipped="0" tests="5" time="50.65" timestamp="2024-02-11 09:37:42"><testcase name="Compra camiseta de mujer"/><testcase name="Compra vestido con rayas"/><testcase name="Validar la existencia de los vestido color amarillo"/><testcase name="Agregar mas de una prenda al carrito"><error message="element click intercepted: Element &lt;button type=&quot;submit&quot; name=&quot;Submit&quot; class=&quot;exclusive&quot;&gt;...&lt;/button&gt; is not clickable at point (102, 24). Other element would receive the click: &lt;div class=&quot;banner&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=121.0.6167.161)&#10;Build info: version: '4.16.1', revision: '9b4c83354e'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b8986cd323fe5466b013307ef71556c1, clickElement {id=3E483B01FB1354EC65105EE62176B35D_element_136}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55071}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55071/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (b8986cd323fe5466b013307ef71556c1)] -&gt; xpath: //button[@class='exclusive']]&#10;Session ID: b8986cd323fe5466b013307ef71556c1" type="org.openqa.selenium.ElementClickInterceptedException">element click intercepted: Element &lt;button type="submit" name="Submit" class="exclusive"&gt;...&lt;/button&gt; is not clickable at point (102, 24). Other element would receive the click: &lt;div class="banner"&gt;...&lt;/div&gt;
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8986cd323fe5466b013307ef71556c1, clickElement {id=3E483B01FB1354EC65105EE62176B35D_element_136}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55071}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55071/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b8986cd323fe5466b013307ef71556c1)] -&gt; xpath: //button[@class='exclusive']]
+Session ID: b8986cd323fe5466b013307ef71556c1</error><system-err>element click intercepted: Element &lt;button type="submit" name="Submit" class="exclusive"&gt;...&lt;/button&gt; is not clickable at point (102, 24). Other element would receive the click: &lt;div class="banner"&gt;...&lt;/div&gt;
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8986cd323fe5466b013307ef71556c1, clickElement {id=3E483B01FB1354EC65105EE62176B35D_element_136}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55071}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55071/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b8986cd323fe5466b013307ef71556c1)] -&gt; xpath: //button[@class='exclusive']]
+Session ID: b8986cd323fe5466b013307ef71556c1&#13;
+pageobjects.ValidateStockPageObject.addMoreThanOneProduct(ValidateStockPageObject.java:110)&#13;
+steps.ValidateStockSteps.verCarrito(ValidateStockSteps.java:13)&#13;
+net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)&#13;
+net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)&#13;
+net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:424)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:199)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
+stepdefinitions.TestStepDefinitions.agregar_varios_productos_y_comprueba_el_carrito(TestStepDefinitions.java:36)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:332)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:53)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase><testcase name="Buscar un producto que no existe"/></testsuite>
